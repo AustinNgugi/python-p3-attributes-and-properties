@@ -16,7 +16,6 @@ APPROVED_JOBS = [
 ]
 
 class Person:
-    class Person:
     def __init__(self, name='J. Doe', job='Sales'):
         self.name = name
         self.job = job
@@ -42,4 +41,3 @@ class Person:
             print("Job must be in list of approved jobs.")
 
     job = property(get_job, set_job)
-
